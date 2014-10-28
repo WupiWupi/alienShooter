@@ -1,17 +1,16 @@
 package main;
 
-import tileMap.Tile;
 import tileMap.TileMap;
+
 
 
 public class AlienShooter {
 	public static void main(String [] args){
-		AlienShooter as = new AlienShooter();
-		as.test();
+		test();
 	}
 
 
-	public void test(){
+	public static void test(){
 		TileMap tm = new TileMap(30, "/tilesets/basic2.png", "/maps/level1_1.txt");
 		
 		for(int i = 0; i < tm.getMap().length; i++){
