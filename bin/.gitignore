@@ -1,6 +1,4 @@
-/maps/
-/main/
-/controller/
 /gameState/
-/backgrounds/
-/gui/
+/controller/
+/main/
+/view/

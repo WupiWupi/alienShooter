@@ -1,12 +1,13 @@
 package main;
 
+import controller.GameController;
 import tileMap.TileMap;
 
 
 
 public class AlienShooter {
 	public static void main(String [] args){
-		test();
+		new GameController();
 	}
 
 
